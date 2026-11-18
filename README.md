@@ -19,6 +19,8 @@ criar pontos de restauração (*snapshots*) e recuperar estados anteriores de um
 Entretanto, sua proposta é manter uma implementação minimalista, com uma estrutura própria 
 de armazenamento.
 
+![BACKUP-STRUCTURE](./docs/images/backup-structure.png)
+
 ## Principais objetivos
 
 - **Armazenamento eficiente:** reduzir a duplicação de dados por meio da identificação de chunks pelo hash.
