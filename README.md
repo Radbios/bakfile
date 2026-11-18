@@ -8,6 +8,8 @@ Seu objetivo é oferecer uma maneira simples e eficiente de armazenar, gerenciar
 A ideia central é utilizar a divisão de arquivos em blocos de bytes (*chunks*), identificando 
 cada bloco por meio de um hash calculado com o algoritmo BLAKE3.
 
+![HASH](./docs/images/hash.png)
+
 Dessa forma, quando um arquivo é modificado, apenas os chunks novos ou alterados precisam 
 ser armazenados. Os chunks que já existem no repositório podem ser reutilizados, evitando a 
 duplicação de conteúdo e reduzindo o espaço necessário para armazenamento.
